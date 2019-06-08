@@ -17,11 +17,11 @@ public class ExceptionResult {
 
     private String message;
 
-    private long timestamp;
+    private Long timestamp;
 
     public ExceptionResult(ExceptionEnum em) {
-        this.status = em.value();
-        this.message = em.message();
+        this.status = em.getCode();
+        this.message = em.getMessage();
         this.timestamp = System.currentTimeMillis();
     }
 }

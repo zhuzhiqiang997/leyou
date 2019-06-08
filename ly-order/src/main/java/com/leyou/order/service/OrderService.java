@@ -21,7 +21,7 @@ import com.leyou.order.mapper.OrderStatusMapper;
 import com.leyou.order.pojo.Order;
 import com.leyou.order.pojo.OrderDetail;
 import com.leyou.order.pojo.OrderStatus;
-import com.leyou.order.utils.PayHelper;
+//import com.leyou.order.utils.PayHelper;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.amqp.core.AmqpTemplate;
@@ -57,11 +57,11 @@ public class OrderService {
     @Autowired
     private IdWorker idWorker;
 
-    @Autowired
-    private PayHelper payHelper;
-
-    @Autowired
-    private PayLogService payLogService;
+//    @Autowired
+//    private PayHelper payHelper;
+//
+//    @Autowired
+//    private PayLogService payLogService;
 
     @Autowired
     private AmqpTemplate amqpTemplate;
@@ -170,26 +170,26 @@ public class OrderService {
 
     }
 
-    public String generateUrl(Long orderId) {
-        //根据订单ID查询订单
-        Order order = queryById(orderId);
-        //判断订单状态
-        if (order.getOrderStatus().getStatus() != OrderStatusEnum.INIT.value()) {
-            throw new LyException(ExceptionEnum.ORDER_STATUS_EXCEPTION);
-        }
-
-        //todo 这里传入一份钱，用于测试使用，实际中使用订单中的实付金额
-        String url = payHelper.createPayUrl(orderId, "乐优商城测试", /*order.getActualPay()*/1L);
-        if (StringUtils.isBlank(url)) {
-            throw new LyException(ExceptionEnum.CREATE_PAY_URL_ERROR);
-        }
-
-        //生成支付日志
-        payLogService.createPayLog(orderId, order.getActualPay());
-
-        return url;
-
-    }
+//    public String generateUrl(Long orderId) {
+//        //根据订单ID查询订单
+//        Order order = queryById(orderId);
+//        //判断订单状态
+//        if (order.getOrderStatus().getStatus() != OrderStatusEnum.INIT.value()) {
+//            throw new LyException(ExceptionEnum.ORDER_STATUS_EXCEPTION);
+//        }
+//
+//        //todo 这里传入一份钱，用于测试使用，实际中使用订单中的实付金额
+//        String url = payHelper.createPayUrl(orderId, "乐优商城测试", /*order.getActualPay()*/1L);
+//        if (StringUtils.isBlank(url)) {
+//            throw new LyException(ExceptionEnum.CREATE_PAY_URL_ERROR);
+//        }
+//
+//        //生成支付日志
+//        payLogService.createPayLog(orderId, order.getActualPay());
+//
+//        return url;
+//
+//    }
 
     public Order queryById(Long orderId) {
         Order order = orderMapper.selectByPrimaryKey(orderId);
@@ -205,10 +205,10 @@ public class OrderService {
         return order;
     }
 
-    @Transactional
-    public void handleNotify(Map<String, String> msg) {
-        payHelper.handleNotify(msg);
-    }
+//    @Transactional
+//    public void handleNotify(Map<String, String> msg) {
+//        payHelper.handleNotify(msg);
+//    }
 
     public PageResult<Order> queryOrderByPage(Integer page, Integer rows) {
 

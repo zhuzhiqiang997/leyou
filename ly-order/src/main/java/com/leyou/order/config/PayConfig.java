@@ -1,14 +1,14 @@
-package com.leyou.order.config;
-
-import com.github.wxpay.sdk.WXPayConfig;
-import lombok.Data;
-
-import java.io.InputStream;
-
-/**
- * @author bystander
- * @date 2018/10/5
- */
+//package com.leyou.order.config;
+//
+//import com.github.wxpay.sdk.WXPayConfig;
+//import lombok.Data;
+//
+//import java.io.InputStream;
+//
+///**
+// * @author bystander
+// * @date 2018/10/5
+// */
 //@Data
 //public class PayConfig implements WXPayConfig {
 //

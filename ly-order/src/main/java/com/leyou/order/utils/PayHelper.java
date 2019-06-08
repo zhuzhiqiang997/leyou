@@ -1,5 +1,5 @@
-package com.leyou.order.utils;
-
+//package com.leyou.order.utils;
+//
 //import com.github.wxpay.sdk.WXPay;
 //import com.github.wxpay.sdk.WXPayConstants;
 //import com.github.wxpay.sdk.WXPayUtil;
@@ -26,11 +26,11 @@ package com.leyou.order.utils;
 //import java.util.HashMap;
 //import java.util.Map;
 //import java.util.concurrent.TimeUnit;
-
-/**
- * @author bystander
- * @date 2018/10/5
- */
+//
+///**
+// * @author bystander
+// * @date 2018/10/5
+// */
 //@Slf4j
 //@Component
 //public class PayHelper {

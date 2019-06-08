@@ -1,14 +1,16 @@
 package com.leyou.common.enums;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 /**
  * @author bystander
  * @date 2018/9/15
  */
-@NoArgsConstructor
+@Getter
 @AllArgsConstructor
+@NoArgsConstructor
 public enum ExceptionEnum {
 
     BRAND_CREATE_FAILED(500, "新增品牌失败"),
@@ -58,16 +60,7 @@ public enum ExceptionEnum {
 
 
     ;
-    int value;
-    String message;
-
-    public int value() {
-        return this.value;
-    }
-
-    public String message() {
-        return this.message;
-    }
-
+    private int code;
+    private String message;
 
 }

@@ -36,7 +36,7 @@ mybatis:
   type-aliases-package: com.leyou.order.pojo
 ly:
   jwt:
-    pubKeyPath: D:\tmp\rsa\id_rsa.pub # 公钥地址
+    pubKeyPath: D:/tmp/rsa/id_rsa.pub # 公钥地址
     cookieName: LY_TOKEN # cookie的名称
   worker:
     workerId: 1

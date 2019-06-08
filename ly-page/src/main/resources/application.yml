@@ -19,4 +19,4 @@ eureka:
     ip-address: 127.0.0.1
 ly:
   page:
-    path: D:\tmp\upload
+    path: D:/tmp/upload

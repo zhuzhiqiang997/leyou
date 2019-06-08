@@ -12,7 +12,7 @@ spring:
     host: 192.168.43.130
 ly:
   sms:
-    accessKeyId: LTAIySpZq26EfhNz # 你自己的accessKeyId
-    accessKeySecret: CrdtH24wAOLCqq9iPmbZGJOIYXHNuN # 你自己的AccessKeySecret
+    accessKeyId: LTAIjyu7vcsPfjaD # 你自己的accessKeyId
+    accessKeySecret: 8TZqjEHC37GkyLDPrLurJTIVp6B0Wt # 你自己的AccessKeySecret
     signName: 十次方 # 签名名称
-    verifyCodeTemplate: SMS_163851394 # 模板名称
+    verifyCodeTemplate: SMS_167400918 # 模板名称

@@ -1,5 +1,5 @@
-package com.leyou.order.service;
-
+//package com.leyou.order.service;
+//
 //import com.leyou.order.dto.PayStateEnum;
 //import com.leyou.order.filter.LoginInterceptor;
 //import com.leyou.order.mapper.PayLogMapper;
@@ -10,11 +10,11 @@ package com.leyou.order.service;
 //import org.springframework.transaction.annotation.Transactional;
 //
 //import java.util.Date;
-
-/**
- * @author bystander
- * @date 2018/10/5
- */
+//
+///**
+// * @author bystander
+// * @date 2018/10/5
+// */
 //@Service
 //public class PayLogService {
 //

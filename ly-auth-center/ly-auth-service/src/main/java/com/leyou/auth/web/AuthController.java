@@ -42,7 +42,7 @@ public class AuthController {
      * @param response
      * @return
      */
-    @PostMapping("accredit")
+    @PostMapping("login")
     public ResponseEntity<Void> login(
             @RequestParam("username") String username,
             @RequestParam("password") String password,
@@ -85,7 +85,7 @@ public class AuthController {
      *
      * @param token
      * @param response
-     * @return
+     * @returnr
      */
     @GetMapping("logout")
     public ResponseEntity<Void> logout(@CookieValue("LY_TOKEN") String token, HttpServletResponse response) {

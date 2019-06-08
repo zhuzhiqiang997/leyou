@@ -12,13 +12,10 @@ import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.stereotype.Component;
+import org.springframework.util.CollectionUtils;
 
 import java.util.Map;
 
-/**
- * @author bystander
- * @date 2018/9/29
- */
 @Slf4j
 @Component
 @EnableConfigurationProperties(value = SmsProperties.class)
@@ -36,7 +33,7 @@ public class SmsListener {
             key = "sms.verify.code"
     ))
     public void listenVerifyCode(Map<String, Object> msg) {
-        if (msg == null) {
+        if (CollectionUtils.isEmpty(msg)) {
             return;
         }
         String phone = (String) msg.remove("phone");

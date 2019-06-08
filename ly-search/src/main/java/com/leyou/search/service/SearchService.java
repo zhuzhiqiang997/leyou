@@ -212,10 +212,10 @@ public class SearchService {
         queryBuilder.withQuery(basicQuery);
 
         //对分类和品牌聚合
-        String categoryAggName = "categoryAgg";
+        String categoryAggName = "category_agg";
         queryBuilder.addAggregation(AggregationBuilders.terms(categoryAggName).field("cid3"));
 
-        String brandAggName = "brandAgg";
+        String brandAggName = "brand_agg";
         queryBuilder.addAggregation(AggregationBuilders.terms(brandAggName).field("brandId"));
 
         //查询，获取结果
