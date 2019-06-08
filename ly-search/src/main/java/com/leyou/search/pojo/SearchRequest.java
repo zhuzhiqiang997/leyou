@@ -3,7 +3,7 @@ package com.leyou.search.pojo;
 import java.util.Map;
 
 /**
- * @author bystander
+ * @author zhuzhiqiang997
  * @date 2018/9/22
  */
 public class SearchRequest {

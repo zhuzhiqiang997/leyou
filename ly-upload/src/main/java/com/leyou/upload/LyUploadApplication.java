@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
- * @author bystander
+ * @author zhuzhiqiang997
  * @date 2018/9/16
  */
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)

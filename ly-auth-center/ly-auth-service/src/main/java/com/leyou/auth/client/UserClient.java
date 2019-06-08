@@ -4,7 +4,7 @@ import api.UserApi;
 import org.springframework.cloud.openfeign.FeignClient;
 
 /**
- * @author bystander
+ * @author zhuzhiqiang997
  * @date 2018/10/1
  */
 @FeignClient(value = "user-service")

@@ -8,7 +8,7 @@ import com.leyou.item.vo.BrandVo;
 import java.util.List;
 
 /**
- * @author bystander
+ * @author zhuzhiqiang997
  * @date 2018/9/15
  */
 public interface BrandService {

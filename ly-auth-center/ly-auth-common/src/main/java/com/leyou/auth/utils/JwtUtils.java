@@ -8,7 +8,7 @@ import java.security.PrivateKey;
 import java.security.PublicKey;
 
 /**
- * @author bystander
+ * @author zhuzhiqiang997
  * @date 2018/10/1
  */
 public class JwtUtils {

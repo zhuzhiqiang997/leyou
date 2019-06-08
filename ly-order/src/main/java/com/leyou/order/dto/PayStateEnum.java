@@ -1,7 +1,7 @@
 package com.leyou.order.dto;
 
 /**
- * @author bystander
+ * @author zhuzhiqiang997
  * @date 2018/10/5
  */
 public enum PayStateEnum {

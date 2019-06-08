@@ -10,7 +10,7 @@ import tk.mybatis.mapper.common.Mapper;
 import java.util.List;
 
 /**
- * @author bystander
+ * @author zhuzhiqiang997
  * @date 2018/9/16
  */
 public interface BrandMapper extends Mapper<Brand>,SelectByIdListMapper<Brand, Long> {

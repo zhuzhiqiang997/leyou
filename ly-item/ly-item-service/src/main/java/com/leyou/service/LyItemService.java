@@ -6,7 +6,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import tk.mybatis.spring.annotation.MapperScan;
 
 /**
- * @author bystander
+ * @author zhuzhiqiang997
  * @date 2018/9/13
  */
 @SpringBootApplication

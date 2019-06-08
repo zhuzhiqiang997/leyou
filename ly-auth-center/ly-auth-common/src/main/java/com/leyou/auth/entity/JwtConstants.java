@@ -1,7 +1,7 @@
 package com.leyou.auth.entity;
 
 /**
- * @author bystander
+ * @author zhuzhiqiang997
  * @date 2018/9/30
  */
 public class JwtConstants {

@@ -9,7 +9,7 @@ import javax.persistence.Transient;
 import java.util.Date;
 
 /**
- * @author bystander
+ * @author zhuzhiqiang997
  * @date 2018/9/18
  */
 @Table(name = "tb_sku")

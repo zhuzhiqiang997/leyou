@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 /**
- * @author bystander
+ * @author zhuzhiqiang997
  * @date 2018/9/22
  */
 public interface GoodsApi {

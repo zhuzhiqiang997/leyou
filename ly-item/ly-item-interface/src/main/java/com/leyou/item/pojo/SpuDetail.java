@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * @author bystander
+ * @author zhuzhiqiang997
  * @date 2018/9/18
  */
 @Table(name = "tb_spu_detail")

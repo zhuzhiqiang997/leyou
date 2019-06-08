@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.List;
 
 /**
- * @author bystander
+ * @author zhuzhiqiang997
  * @date 2018/9/22
  */
 @RequestMapping("category")

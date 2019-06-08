@@ -4,7 +4,7 @@ import com.leyou.common.enums.ExceptionEnum;
 import lombok.Data;
 
 /**
- * @author bystander
+ * @author zhuzhiqiang997
  * @date 2018/9/15
  *
  * 自定义异常结果类

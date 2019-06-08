@@ -5,7 +5,7 @@ import com.leyou.item.pojo.Category;
 import java.util.List;
 
 /**
- * @author bystander
+ * @author zhuzhiqiang997
  * @date 2018/9/15
  */
 public interface CategoryService {

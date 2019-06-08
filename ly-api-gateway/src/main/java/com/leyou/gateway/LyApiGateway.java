@@ -7,7 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 /**
- * @author bystander
+ * @author zhuzhiqiang997
  * @date 2018/9/13
  */
 @SpringBootApplication

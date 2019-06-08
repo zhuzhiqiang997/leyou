@@ -6,7 +6,7 @@ import com.leyou.item.pojo.SpecParam;
 import java.util.List;
 
 /**
- * @author bystander
+ * @author zhuzhiqiang997
  * @date 2018/9/18
  */
 public interface SpecService {

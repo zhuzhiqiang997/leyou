@@ -4,7 +4,7 @@ import com.leyou.user.pojo.User;
 import tk.mybatis.mapper.common.Mapper;
 
 /**
- * @author bystander
+ * @author zhuzhiqiang997
  * @date 2018/9/29
  */
 public interface UserMapper extends Mapper<User> {

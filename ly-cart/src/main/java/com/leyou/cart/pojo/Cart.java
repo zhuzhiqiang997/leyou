@@ -3,7 +3,7 @@ package com.leyou.cart.pojo;
 import lombok.Data;
 
 /**
- * @author bystander
+ * @author zhuzhiqiang997
  * @date 2018/10/3
  */
 @Data

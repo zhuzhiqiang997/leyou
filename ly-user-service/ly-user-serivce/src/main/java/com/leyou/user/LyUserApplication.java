@@ -6,7 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import tk.mybatis.spring.annotation.MapperScan;
 
 /**
- * @author bystander
+ * @author zhuzhiqiang997
  * @date 2018/9/29
  */
 @SpringBootApplication

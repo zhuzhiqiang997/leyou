@@ -6,7 +6,7 @@ import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Update;
 
 /**
- * @author bystander
+ * @author zhuzhiqiang997
  * @date 2018/9/18
  */
 public interface StockMapper extends BaseMapper<Stock, Long> {
