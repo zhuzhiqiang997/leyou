@@ -8,8 +8,8 @@ spring:
       server:
         git:
           uri: https://gitee.com/zhuzhiqiang997/leyou-config.git
-          username: zhuzhiqiang997
-          password: zzq123456
+          username: 
+          password: 
   rabbitmq:
     host: 192.168.43.130
     username: leyou
