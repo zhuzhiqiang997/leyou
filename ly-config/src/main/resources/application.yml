@@ -7,14 +7,15 @@ spring:
     config:
       server:
         git:
-          uri: 
-          username: 
-          password: 
+          uri: http://192.168.138.100:3000/test/leyou_config.git
+          username: test
+          password: test
   rabbitmq:
-    host: 192.168.43.130
-    username: leyou
-    password: leyou
-    virtual-host: /leyou
+    host: 192.168.138.100
+    port: 5672
+    username: test
+    password: test
+    virtual-host: /test
 management:
   endpoints:
     web:
