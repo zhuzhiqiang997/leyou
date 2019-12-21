@@ -2,7 +2,6 @@ package com.leyou.service.web;
 
 import com.leyou.common.vo.PageResult;
 import com.leyou.item.pojo.Brand;
-import com.leyou.item.pojo.Category;
 import com.leyou.item.vo.BrandVo;
 import com.leyou.service.service.BrandService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -118,8 +117,4 @@ public class BrandController {
     public ResponseEntity<List<Brand>> queryBrandsByIds(@RequestParam("ids") List<Long> ids) {
         return ResponseEntity.ok(brandService.queryBrandByIds(ids));
     }
-
-
-
-
 }
