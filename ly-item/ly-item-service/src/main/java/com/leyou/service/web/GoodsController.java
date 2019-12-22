@@ -24,7 +24,15 @@ public class GoodsController {
     @Autowired
     private GoodsService goodsService;
 
+
     @GetMapping("spu/page")
+    /**
+     * 分页查询spu
+     * @Param [page, rows, key, saleable]
+     * @Return org.springframework.http.ResponseEntity<com.leyou.common.vo.PageResult<com.leyou.item.pojo.Spu>>
+     * @Author zhuzhiqiang
+     * @Date 2019/12/22 18:26
+     */
     public ResponseEntity<PageResult<Spu>> querySpuByPage(
             @RequestParam(value = "page",defaultValue = "1")Integer page,
             @RequestParam(value = "rows",defaultValue = "5")Integer rows,
